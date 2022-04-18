@@ -13,7 +13,7 @@ import {
   WhatsappShareButton,
 } from "react-share"
 import { useWindowSize } from "react-use"
-import { baseURL } from "services/api"
+import { baseURL } from "services/pixelme"
 
 export default function ShareMeme() {
   const router = useRouter()

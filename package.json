@@ -1,8 +1,8 @@
 {
-  "name": "nextchakra-starter",
+  "name": "@edendao/passport-photo",
   "version": "0.1.0",
   "private": true,
-  "author": "sozonome",
+  "author": "DaoDeCyrus",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,15 +21,18 @@
     "ahooks": "^2.10.9",
     "axios": "^0.21.1",
     "framer-motion": "^4.1.17",
-    "next": "^11.1.0",
+    "konva": "^8.3.5",
+    "next": "^12.1.5",
     "next-pwa": "^5.3.1",
-    "react": "^17.0.2",
+    "react": "^17.0.0",
     "react-confetti": "^6.0.1",
-    "react-dom": "^17.0.2",
+    "react-dom": "^17.0.0",
     "react-icons": "^4.2.0",
+    "react-konva": "^17.0.2-6",
     "react-share": "^4.4.0",
     "react-use": "^17.2.4",
-    "react-webcam": "^6.0.0"
+    "react-webcam": "^6.0.0",
+    "use-image": "^1.0.12"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^13.1.0",
