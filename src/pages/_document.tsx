@@ -5,7 +5,6 @@ const APP_DESCRIPTION =
   "A deepfake app that lets you perform Italian opera classics using only a selfie."
 
 export default class DocumentElement extends Document {
-
   render() {
     return (
       <Html lang="en">
@@ -23,9 +22,9 @@ export default class DocumentElement extends Document {
           <meta name="theme-color" content="#FFFFFF" />
 
           <meta name="twitter:card" content={APP_DESCRIPTION} />
-          <meta name="twitter:site" content="@hellopaperspace" />
+          <meta name="twitter:site" content="@TheEdenDao" />
           <meta name="twitter:title" content={APP_NAME} />
-          <meta name="twitter:description" content="How to embed a Twitch video into a React application or website using the ReactPlayer npm package." />
+          <meta name="twitter:description" content="ReFi Passport NFT" />
           <meta name="twitter:image" content="/icons/adoro-192x192x.png" />
 
           <link
@@ -33,7 +32,6 @@ export default class DocumentElement extends Document {
             sizes="180x180"
             href="../src/assets/adoro-touch-icon.png"
           />
-          <link rel="shortcut icon" href="../src/assets/adoro-favicon.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"
@@ -46,11 +44,7 @@ export default class DocumentElement extends Document {
           />
 
           <link rel="manifest" href="/manifest.json" />
-          
         </Head>
-
-      
-
 
         <body>
           <Main />
